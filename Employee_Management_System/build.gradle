@@ -33,8 +33,11 @@ dependencies {
 	// https://mvnrepository.com/artifact/org.webjars/webjars-locator
 	implementation group: 'org.webjars', name: 'webjars-locator', version: '0.46'
 
-// https://mvnrepository.com/artifact/io.github.classgraph/classgraph
+	// https://mvnrepository.com/artifact/io.github.classgraph/classgraph
 	implementation group: 'io.github.classgraph', name: 'classgraph', version: '4.8.157'
+	
+	//log4j dependency
+	 implementation 'org.apache.logging.log4j:log4j-core:2.17.0'
 	
 }
 
