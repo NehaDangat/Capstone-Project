@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
+
 public class EmployeeManagementSystemApplication {
 
 	public static void main(String[] args) {
@@ -17,5 +18,7 @@ public class EmployeeManagementSystemApplication {
 		
 		return new RestTemplate();
 	}
+	
+	
 
 }

@@ -2,7 +2,6 @@ package com.hdfc.employeeManagement.DTO;
 
 import java.sql.Date;
 
-import jakarta.persistence.Id;
 
 public class EmployeeDTO {
 	
