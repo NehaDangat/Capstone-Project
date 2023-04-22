@@ -18,7 +18,7 @@ public class EmployeeManagementSystemApplication {
 		
 		LOGGER.info("Received request");
         // process request
-        LOGGER.info("Completed request");
+       LOGGER.info("Completed request");
 
 	}
 	
