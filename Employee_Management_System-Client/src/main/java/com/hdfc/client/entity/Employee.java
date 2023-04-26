@@ -1,15 +1,18 @@
-package com.hdfc.employeeManagement.entity;
+package com.hdfc.client.entity;
 
 
 
+import java.util.Base64;
+
+import javax.crypto.Cipher;
+import javax.crypto.spec.IvParameterSpec;
+import javax.crypto.spec.SecretKeySpec;
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.Table;
-@Entity
-@Table(name = "employee")
+
+
 public class Employee {
 	
-	@Id
 	private int employeeId;
 	private String employeeName;
 	private String dateOfBirth;
@@ -45,15 +48,16 @@ public class Employee {
 		return dateOfBirth;
 	}
 
-	public void setDateOfBirth(String dateOfBirth) {
-		this.dateOfBirth = dateOfBirth;
+	public void setDateOfBirth(String date) {
+		this.dateOfBirth = date;
 	}
-	
 
 	@Override
 	public String toString() {
 		return "Employee [employeeId=" + employeeId + ", employeeName=" + employeeName + ", dateOfBirth=" + dateOfBirth
 				+ "]";
 	}
+
+	
 	
 }

@@ -8,4 +8,6 @@ import com.hdfc.employeeManagement.entity.Employee;
 @Repository
 public interface IEmployeeRepository extends JpaRepository<Employee, Integer> {
 
+	public Employee findByEmployeeId(int employeeId);
+
 }

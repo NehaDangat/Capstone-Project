@@ -2,9 +2,9 @@ package com.hdfc.employeeManagement.exception;
 
 public class InvalidEmployeeIdException extends Exception {
 	
-	public InvalidEmployeeIdException(String errorMessage) {
+	public InvalidEmployeeIdException(String string) {
         
-		super(errorMessage);
+		super(string);
     }
 
 }

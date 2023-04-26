@@ -1,6 +1,6 @@
-package com.hdfc.employeeManagement.DTO;
+package com.hdfc.client.DTO;
 
-import java.sql.Date;
+
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
