@@ -14,9 +14,9 @@ spec:
     spec:
       containers:
         - name: springboot-crud-k8s
-          image: alenantony30/my-app:latest
+          image: nehadangat17/employeesystem:latest
           ports:
-            - containerPort: 8585
+            - containerPort: 1999
           env:   
             - name: DB_HOST   
               value: mysql
@@ -38,6 +38,6 @@ spec:
     app: springboot-k8s-mysql
   ports:
     - protocol: "TCP"
-      port: 8585 
-      targetPort: 8585 
+      port: 1999 
+      targetPort: 1999 
   type: NodePort
