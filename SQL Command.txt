@@ -5,7 +5,7 @@ CREATE DATABASE "employeeinfo";
 
 //Create Table
 
-CREATE TABLE employee (
+CREATE TABLE employeeinfo (
   EmployeeID int PRIMARY KEY,
   EmployeeName VARCHAR(50) NOT NULL,
   DateOfBirth VARCHAR(50) NOT NULL
@@ -14,7 +14,7 @@ CREATE TABLE employee (
 
 //Insert Record into table
 
-INSERT INTO employee (employeeid, employee_name, date_of_birth)
+INSERT INTO employee (employeeid, employeename, dateofbirth)
 VALUES
   (1,'Neha', '1990-05-12'),
   (2,'Rani', '1995-07-24'),
