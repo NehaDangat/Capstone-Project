@@ -5,7 +5,7 @@ CREATE DATABASE "employeeinfo";
 
 //Create Table
 
-CREATE TABLE employeeinfo (
+CREATE TABLE employee (
   EmployeeID int PRIMARY KEY,
   EmployeeName VARCHAR(50) NOT NULL,
   DateOfBirth VARCHAR(50) NOT NULL
